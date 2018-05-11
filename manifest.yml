@@ -1,0 +1,9 @@
+---
+applications:
+- name: maxapp
+  memory: 512M
+  path: F:\maxapp1\maxapp
+  #host: mernapp
+  #buildpack: https://Pallu143:Iloveupallavi143!@bitbucket.org/Pallu143/maxapp.git
+  random-route: true
+  command: npm run forever 
